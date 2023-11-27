@@ -4,6 +4,8 @@ languageCode = "zh-cn"
 defaultContentLanguage = "zh"
 paginate = "7"
 theme = "spectral-master"
+publishDir = 'docs'
+# outdir = "docs"
 #googleAnalytics = "G-XXXXXXXXXX"
 
 [params]
@@ -129,9 +131,9 @@ body = '略'
 enable = true
 title = "Contact"
 body = "Leave us a message."
-phone = "+86 (0) 11451411451"
+# phone = "+86 (0) 11451411451"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "114@514.com"
+# email = "114@514.com"
 subject = "New Submission!"
 formspree_form_id = "example_invalid"
 
