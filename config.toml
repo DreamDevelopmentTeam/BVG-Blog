@@ -4,7 +4,7 @@ languageCode = "zh-cn"
 defaultContentLanguage = "zh"
 paginate = "7"
 theme = "spectral-master"
-publishDir = 'docs'
+publishDir = 'd:\github\mosf-bvg-Blog\docs'
 # outdir = "docs"
 #googleAnalytics = "G-XXXXXXXXXX"
 
