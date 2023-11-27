@@ -1,0 +1,32 @@
+[menu]
+other = "主页"
+
+[learnmore]
+other = "了解更多"
+
+[name]
+other = "名称"
+
+[email]
+other = "邮箱"
+
+[phone]
+other = "电话"
+
+[address]
+other = "地址"
+
+[yourmessage]
+other = "正文"
+
+[send]
+other = "发送"
+
+[reset]
+other = "重置"
+
+[allarticles]
+other = "所有文章"
+
+[readmore]
+other = "阅读更多…"
