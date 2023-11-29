@@ -14,12 +14,6 @@ publishDir = 'd:\github\mosf-bvg-Blog\docs'
 fancyTitle = "mosf bvg's blog" # title for frontpage, may include image
 copyright = "mosf bvg"
 description = '至此,已成bug'
-# startbuttonText = "Activate"
-# startbuttonLink = "#"
-# body_is_markdown = true
-#custom_css = "foo.css"
-#custom_sass = "bar.scss"
-# images = ["path_to_social_image_for_link_previews.jpg"]
 
 [[params.menu.main]]
 url = '/'
@@ -129,15 +123,15 @@ body = '略'
 # text = "Learn More"
 # special = false
 
-[params.contact]
-enable = true
-title = "Contact"
-body = "Leave us a message."
-# phone = "+86 (0) 11451411451"
-address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-# email = "114@514.com"
-subject = "New Submission!"
-formspree_form_id = "example_invalid"
+# [params.contact]
+# enable = true
+# title = "Contact"
+# body = "Leave us a message."
+# # phone = "+86 (0) 11451411451"
+# address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+# # email = "114@514.com"
+# subject = "New Submission!"
+# formspree_form_id = "example_invalid"
 
 [params.social]
 twitter = ""
