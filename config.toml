@@ -1,11 +1,11 @@
 # https://mosf-bvg-blog.devtm.top/
 
-baseURL = "/"
+# baseURL = "/"
 title = "mosf bvg"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
 paginate = "7"
-# theme = "spectral-master"
+theme = "spectral-master"
 publishDir = 'd:\github\mosf-bvg-Blog\docs'
 # outdir = "docs"
 #googleAnalytics = "G-XXXXXXXXXX"
