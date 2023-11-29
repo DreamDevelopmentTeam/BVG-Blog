@@ -14,6 +14,7 @@ publishDir = 'd:\github\mosf-bvg-Blog\docs'
 fancyTitle = "mosf bvg's blog" # title for frontpage, may include image
 copyright = "mosf bvg"
 description = '至此,已成bug'
+body_is_markdown = true
 
 [[params.menu.main]]
 url = '/'
