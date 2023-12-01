@@ -6,6 +6,11 @@
     <p>{{ . }}</p>
     {{ end }}
 	</header>
+                                                <script>
+                                                  {{/*  此为Debug用  */}}
+                                                  console.log("Debug2\n"+"{{ .Paginator.Pages }}")
+                                                  console.log("Debug3\n"+"{{ . }}")
+                                                </script>
 		{{ range .Paginator.Pages }}
 			{{ partial "summary.html" . }}
 		{{ end }}

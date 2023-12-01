@@ -5,7 +5,7 @@ function typing() {
     if (i <= str.length) {
         loading = str.slice(0, i++) + '_' + '<span style="visibility:hidden;">' + str.slice(i - 1) + '</span>\xa0'
         divTyping.innerHTML = loading
-        console.log(loading)
+        // console.log(loading)
         timer = setTimeout(typing, 75)
     }
     else {
@@ -24,7 +24,7 @@ function typing() {
                     animation-iteration-count: infinite;
                 }
             </style>` + '<spwn class="show_hide">_</spwn>'
-        console.log(divTyping.innerHTML)
+        // console.log(divTyping.innerHTML)
         clearTimeout(timer)
     }
 }
@@ -49,7 +49,7 @@ const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 
 const repeatedGreetings = async () => {
     await sleep(1500)
-    console.log(1)
+    // console.log(1)
 
     typing()
 }

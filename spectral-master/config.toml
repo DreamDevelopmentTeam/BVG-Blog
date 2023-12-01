@@ -1,6 +1,12 @@
 # https://mosf-bvg-blog.devtm.top/
 
-# baseURL = "/"
+# <script>
+#     {{/*  此为Debug用  */}}
+#     console.log("Debug1\n"+"{{ .Paginator.Pages }}")
+#     console.log("Debug1\n"+"{{ . }}")
+# </script>
+
+baseURL = "/"
 title = "mosf bvg"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
@@ -18,11 +24,11 @@ body_is_markdown = true
 
 [[params.menu.main]]
 url = '/'
-title = "Home"
+title = "主页"
 
 [[params.menu.main]]
 url = '/posts'
-title = "Posts"
+title = "所有文章"
 
 [taxonomies]
     tag = "tags"
@@ -31,7 +37,7 @@ title = "Posts"
 
 [params.one]
 enable = true
-title = '这个blog不只是blog'
+title = '不只是blog'
 body = '''
 写我愿写,说我愿说
 '''
@@ -55,18 +61,14 @@ body = '''
 enable = true
 
 [[params.two.section]]
-img = "img/pic01.jpg"
-img_alt = "blurry background: white/grey"
 title = '首先,这是一个废话'
 body = '略'
 
 [[params.two.section]]
-img = "img/pic02.jpg"
 title = '其次,这是一个废话'
 body = '略'
 
 [[params.two.section]]
-img = "img/pic03.jpg"
 title = '最后,这是一个废话'
 body = '略'
 
